@@ -1,0 +1,12 @@
+Search Results for {{ search_term }} for Places within {{ distance }}m of lat: {{latitude}} and lng: {{longitude}}
+<ul>
+{% for document in results %}
+    <li>
+        Title: {{ document.title }}
+        <br>
+        Text: {{ document.description }}
+        <br>
+        Lat, Lng: {{ document.latitude }}, {{ document.longitude }}
+    </li>
+{% endfor %}
+</ul>
