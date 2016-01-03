@@ -1,4 +1,4 @@
-Flask Full Text Search using Postgres
+Flask Full Text Search with nearby search using Postgres and PostGIS
 ---
 
 1. `pip install -r requirements.txt`
